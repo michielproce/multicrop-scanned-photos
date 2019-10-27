@@ -1,13 +1,25 @@
 # multicrop-scanned-photos
 Detects all photos in the provided scans and extracts them to separate files. Used when digitizing a large collection of photographs.
 
+## Example
+The following scan:
+
+<img src="https://raw.githubusercontent.com/michielproce/multicrop-scanned-photos/master/readme-img/in.jpg" width="400">
+
+Is split into 4 separate images:
+
+1. <img src="https://raw.githubusercontent.com/michielproce/multicrop-scanned-photos/master/readme-img/out-0.jpg" width="200">
+2. <img src="https://raw.githubusercontent.com/michielproce/multicrop-scanned-photos/master/readme-img/out-1.jpg" width="200">
+3. <img src="https://raw.githubusercontent.com/michielproce/multicrop-scanned-photos/master/readme-img/out-2.jpg" width="200">
+4. <img src="https://raw.githubusercontent.com/michielproce/multicrop-scanned-photos/master/readme-img/out-3.jpg" width="200">
+
 ## Prerequisites
 Current release is created for Java 8 on Windows 10 64-bit. Tested with TIFF files scanned at 600DPI.
 
 Make sure you have Java installed.
 
 ## Running
-Download `multicrop-scanned-photos-1.0.zip` in the releases tab of Github.
+Download [`multicrop-scanned-photos-1.0.zip`](https://github.com/michielproce/multicrop-scanned-photos/releases/download/v1.0/multicrop-scanned-photos-1.0.zip) in the releases tab of Github.
 
 Run `multicrop-scanned-photos-example.bat` to extract the 4 photos from `example-in` directory to the `example-out` directory.
 
@@ -35,6 +47,9 @@ Edit `multicrop-scanned-photos.properties` to change options:
 5. Detect contours
 6. Detect rects, compensating for the removed border in step 1 and cropping according to `postcrop`
 7. Export to separate files
+
+<img src="https://raw.githubusercontent.com/michielproce/multicrop-scanned-photos/master/readme-img/process.gif" width="800">
+
 
 ## Acknowledgments
 Inspired by: https://github.com/polm/ndl-crop

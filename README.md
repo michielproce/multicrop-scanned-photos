@@ -43,7 +43,7 @@ Edit `multicrop-scanned-photos.properties` to change options:
 1. Crop `ignore-edge` pixels around the edges
 2. Add a white border of `ignore-edge` pixels
 3. Transform to greyscale
-4. Treshold according to `threshold` value
+4. Threshold according to `threshold` value
 5. Detect contours
 6. Detect rects, compensating for the removed border in step 1 and cropping according to `postcrop`
 7. Export to separate files
